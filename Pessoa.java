@@ -1,3 +1,4 @@
+// Autor: Fernando Fernandes dos Santos
 package entidades;
 
 public class Pessoa {
@@ -8,9 +9,9 @@ public class Pessoa {
 	
 	public Pessoa(String _nome, int _idade, double _peso) {
 		
-		this.setNome(_nome);
-		this.setIdade(_idade);	
-		this.setPeso(_peso);
+		this.nome = _nome;
+		this.idade = _idade;	
+		this.peso = _peso;
 	}
 
 	public String getNome() {
